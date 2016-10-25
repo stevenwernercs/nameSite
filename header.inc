@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Personal Website">
     <meta name="author" content="Steven Werner">
-    <link rel="shortcut icon" href="../img/icon/ste.ico">
+    <link rel="shortcut icon" href="/img/icon/ste.ico">
 
     <title><?php echo $pageTitle?></title>
 
