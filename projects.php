@@ -4,6 +4,17 @@ $pageName="projects";
 require_once("header.inc");
 ?>
 
+  <style>
+  @font-face { font-family: textura; src: url('/resources/fonts/textura.ttf'); } 
+  .te
+  {
+	font-size:130%;
+  	font-family: textura;
+	color: rgba(0, 0, 0, 0.7);
+        text-shadow: 0 0 0.2em #FFFFAA, 0 0 0.3em #CD5700, 0 0 0.4em #CD5700;
+  }
+  </style>
+
  <!-- static Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
@@ -43,7 +54,7 @@ require_once("header.inc");
           <img src="img/square/xcode.png" style="width: 140px; height: 140px;">
           <h2>iOS Development</h2>
           <p>One man app development, realizing a few app ideas I've kept to myself. See 
-	<a href="http://www.trifidEarth.com" target="_blank">trifidEarth.com</a> for more information.</p>
+	<a href="http://www.trifidEarth.com" target="_blank" class="te">trifidEarth.com</a> for more information.</p>
           <!-- <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p> -->
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
