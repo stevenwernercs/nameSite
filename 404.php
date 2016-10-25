@@ -13,7 +13,7 @@ require_once("header.inc");
           <div class="container">
             <div class="carousel-caption">
 	      <p><a href="http://en.wikipedia.org/wiki/404"  target="_blank">
-	      <img src="img/error404.png" width="200" height="200"
+	      <img src="/img/error404.png" width="200" height="200"
 		  title="Oops"/></a></p>
               <p><z style="font-size:40px">error<b>404</b></z>
 	      <br/>The requested URL was not found on the server.</p>
