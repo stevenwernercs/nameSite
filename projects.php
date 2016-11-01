@@ -22,9 +22,9 @@ require_once("header.inc");
         <div class="item active">
           <div class="container">
             <div class="carousel-caption">
-	      <p><a href="http://csts.cs.utep.edu/" target="_blank"><img
-	         src="img/square/workin.jpg" width="200" height="200" class="img-circle"
-	            title="coding & relaxing at UTEP's CS Building"></a></p>
+	      <p><a href="http://www.cs.utep.edu/" target="_blank" title="Coding & relaxing at the CS Building @ UTEP"><img
+	         src="img/square/workin.jpg" width="200" height="200" class="img-circle">
+			</a></p>
               <p style="font-size:40px">some<b>projects</b></p>
             </div>
           </div>
@@ -77,7 +77,9 @@ require_once("header.inc");
         <div class="col-md-7">
 	  <h2 class="featurette-heading">So Many Ideas: <span class="text-muted">so little time</span></h2>
           <p class="lead">
-		When I'm not working full time as a Senior Software Engineer/partial Project Manager at <a href="http://Lymba.com" target="_blank">Lymba Corporation</a>, or fixing up my newly purchased fixer-upper home, I try to make some time to continue and further explore some of my hobby projects.
+		<!-- Work on projects has come to a full stop for the past 2 years while working. 
+		I'm slowly allocating more time for me and my many projet ideas. -->
+		When I'm not working full time as a Senior Software Engineer/partial Project Manager at <a href="http://Lymba.com" target="_blank">Lymba Corporation</a>, or fixing up my newly purchased fixer-upper home, I try to make some time to continue and further explore some of my many project ideas.
 		 <!-- 
 			With money left over from my time in Iraq, 
 			I am at a unique postion to follow my own passions. 
@@ -89,25 +91,62 @@ require_once("header.inc");
           <img class="featurette-image img-responsive" src="img/square/labtop.jpg" style="width: 500px; height: 500px;">
         </div>
       </div>  
-
-	<hr class="featurette-divider">
-
+    
+ 
+      <!--hr class="featurette-divider">
+	
 	<div class="row">
 		<div class="col-lg-4">
 			<h1> </h1>
 		</div>
 		<div class="col-lg-4">
-			<h1>Past Projects</h1>
+			<h1>Project Highlights</h1>
 		</div>
 		<div class="col-lg-4">
 			<h1> </h1>
 		</div>
-	</div>
+	</div-->
 
-    <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-5">
+		<div class="github-widget" data-username="stevenWernerCS"></div>
+		<script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">GitHub <span class="text-muted">projects</span></h2>
+          <p class="lead">Checkout my github for details on my most 
+		current personal projects. I might jump around a 
+		little bit, but I'm still taking time to get all 
+		my older projects found and pushed into github.
+			</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">MIPS: <span class="text-muted">simulator</span></h2>
+          <p class="lead">MIPS assembily pipeline simulator in java. Takes in assembily code from text file, converts it to machine code, and then interprets the machine code to change registar values and process assembily instructions. Registar values and MIPS pipeline state is logged after each assembily code instruction. Processor level caching is implemented as well.</a>
+			</p>
+        </div>
+        <div class="col-md-5 vcenter">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<img class="featurette-image img-responsive" src="img/Pipeline_MIPS.png" style="width: 500px;">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5 vcenter">
+		<br/>
+		<br/>
 		<img class="featurette-image img-responsive" src="img/square/senqual.jpg" style="width: 500px;">
         </div>
         <div class="col-md-7">
