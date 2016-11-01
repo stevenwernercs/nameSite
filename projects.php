@@ -22,8 +22,9 @@ require_once("header.inc");
         <div class="item active">
           <div class="container">
             <div class="carousel-caption">
-	      <p><img
-    src="img/square/workin.jpg" width="200" height="200" class="img-circle"></p>
+	      <p><a href="http://csts.cs.utep.edu/" target="_blank"><img
+	         src="img/square/workin.jpg" width="200" height="200" class="img-circle"
+	            title="coding & relaxing at UTEP's CS Building"></a></p>
               <p style="font-size:40px">some<b>projects</b></p>
             </div>
           </div>
@@ -75,9 +76,14 @@ require_once("header.inc");
       <div class="row featurette">
         <div class="col-md-7">
 	  <h2 class="featurette-heading">So Many Ideas: <span class="text-muted">so little time</span></h2>
-          <p class="lead">With money left over from my time in Iraq, I am at a unique postion
-		to follow my own passions. Reading, practice, trial and error. Will make for 
-		a better self.</p>
+          <p class="lead">
+		When I'm not working full time as a Senior Software Engineer/partial Project Manager at <a href="http://Lymba.com" target="_blank">Lymba Corporation</a>, or fixing up my newly purchased fixer-upper home, I try to make some time to continue and further explore some of my hobby projects.
+		 <!-- 
+			With money left over from my time in Iraq, 
+			I am at a unique postion to follow my own passions. 
+			Reading, practice, trial and error. Will make for a better self.
+		-->
+	  </p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="img/square/labtop.jpg" style="width: 500px; height: 500px;">
