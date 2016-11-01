@@ -83,8 +83,14 @@ require_once("header.inc");
 	  </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive"
-        src="img/square/wallet.png" title="feel free to deposit to my bitcoin wallet" style="width: 400px; height: 400px;">
+          <a href="https://www.coinbase.com/stevenwernercs" target="_blank"><img class="featurette-image img-responsive"
+        src="img/square/wallet.png" alt="my bitcoin wallet" title="feel free to deposit to my bitcoin wallet" style="width: 400px; height: 400px;"><a/>
+	   <!--iframe src="http://www.bitlisten.com/" id="bitListen" width="400" height="400" ></iframe>
+	    <script>
+		window.onload = function() {
+			document.getElementById('bitListen').contentWindow.toggleInterface();
+		};
+	    </script-->
         </div>
       </div>
 
