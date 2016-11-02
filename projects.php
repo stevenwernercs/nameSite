@@ -132,7 +132,7 @@ require_once("header.inc");
           <p class="lead">MIPS assembily pipeline simulator in java. Takes in assembily code from text file, converts it to machine code, and then interprets the machine code to change registar values and process assembily instructions. Registar values and MIPS pipeline state is logged after each assembily code instruction. Processor level caching is implemented as well.</a>
 			</p>
         </div>
-        <div class="col-md-5 vcenter">
+        <div class="col-md-5">
 		<br/>
 		<br/>
 		<br/>
@@ -144,7 +144,7 @@ require_once("header.inc");
       <hr class="featurette-divider">
 
       <div class="row featurette">
-        <div class="col-md-5 vcenter">
+        <div class="col-md-5">
 		<br/>
 		<br/>
 		<img class="featurette-image img-responsive" src="img/square/senqual.jpg" style="width: 500px;">
