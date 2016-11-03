@@ -72,12 +72,10 @@ require_once("header.inc");
         <div class="col-md-7">
           <h2 class="featurette-heading">Cryptocurrency: <span
         class="text-muted">like <a href="http://www.bitcoin.org/" target="_blank"><i>bitcoin</i></a></span></h2>
-          <p class="lead">The potential for changing how governments
-        and economies work jaw dropping... Fractional reserve banking 
-	will also be a thing of the past. Blockchain voting will 
-	fundamentally change the world as well. <BR/>
+          <p class="lead">The potential for changing how governments and economies work is jaw dropping... 
+          Fractional reserve banking will be a thing of the past, and governments can't print money to fund wars. <BR/>
 	Watch bitcoin being transfered all over the world, or even listen to it at <a href="http://www.bitlisten.com/" target="_blank">BitListen.com</a><br/>
-	Also checkout BlockChain Voting: <a href="https://www.followmyvote.com/" target="_blank">FollowMyVote</a> &amp; <a href="http://www.democracy.earth/" target="_blank">Democracy Earth</a>
+	Blockchain voting will fundamentally change the world as well, checkout BlockChain Voting: <a href="https://www.followmyvote.com/" target="_blank">FollowMyVote</a> &amp; <a href="http://www.democracy.earth/" target="_blank">Democracy Earth</a>
 	  </p>
         </div>
         <div class="col-md-5">
