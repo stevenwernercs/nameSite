@@ -32,7 +32,7 @@ require_once("header.inc");
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Cognitive Computing:</h2>
-          <p class="lead">Paths to building intellegent machines are being researched
+          <p class="lead">Paths to building intelligent machines are being researched
 		more then ever before. Big names include: <a href="http://bluebrain.epfl.ch/" target="_blank">The Blue Brain Project</a>, <a href="http://www.research.ibm.com/cognitive-computing/neurosynaptic-chips.shtml?lnk=ushpls1" target="_blank">IBM and The SyNAPSE Project</a>, 
 		<a href="http://www.humanconnectomeproject.org/" target="_blank">The Human Connectome Project</a>, <a href="http://www.thinkwithgoogle.com/articles/transgressive-man.html" target="_blank">Google with Ray Kurzweil</a>, and <a href="http://www.rni.org/directors.html" target="_blank">Jeff Hawkins</a> with <a href="http://numenta.com/" target="_blank">Numenta</a> to name a few. <br/>
 		Check out two great ways to help: <a href="http://www.eyewire.org" target="_blank">EyeWire.org</a> &amp; <a href="http://www.openWorm.org" target="_blank">OpenWorm.org</a></p>
@@ -53,15 +53,15 @@ require_once("header.inc");
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">Quantum Computing: <span class="text-muted"><a href="http://www.dwavesys.com/" target="_blank">D-Wave</a></span></h2>
-          <p class="lead">Vast potiential yet to be
+          <p class="lead">Vast potential yet to be
         realized. Currently designed to solve only discrete
-        optomization problems. Maybe in the near future we will be
-        able to do exaustive debugging, and enough power to
-       compute millions of atomic reations, redifining molecular
+        optimization problems. Maybe in the near future we will be
+        able to do exhausted debugging, and enough power to
+       compute millions of atomic reactions, redefining molecular
         dynamics simulations.<br/>
 	Although I have major concerns about computer security with this kind of power; 
 	I think a single quantum computer in the wrong hands is more 
-	dangerous than weapons of mass distruction, and I'm not sure about what is being done about this.
+	dangerous than weapons of mass destruction, and I'm not sure about what is being done about this.
 	</p>
         </div>
       </div>
@@ -72,25 +72,24 @@ require_once("header.inc");
         <div class="col-md-7">
           <h2 class="featurette-heading">Cryptocurrency: <span
         class="text-muted">like <a href="http://www.bitcoin.org/" target="_blank"><i>bitcoin</i></a></span></h2>
-          <p class="lead">The potiental for changing how governments
-        and economies work is unthinkable... Fractional reserve banking 
+          <p class="lead">The potential for changing how governments
+        and economies work jaw dropping... Fractional reserve banking 
 	will also be a thing of the past. Blockchain voting will 
-	fundamentally change the world. This is my
-        <i>bitcoin</i> deposit address, feel free to
-        send some bits my way.<br/>
-	<a href="http://www.bitlisten.com/" target="_blank">BitListen.com</a><br/>
+	fundamentally change the world as well. <BR/>
+	Watch bitcoin being transfered all over the world, or even listen to it at <a href="http://www.bitlisten.com/" target="_blank">BitListen.com</a><br/>
 	Also checkout BlockChain Voting: <a href="https://www.followmyvote.com/" target="_blank">FollowMyVote</a> &amp; <a href="http://www.democracy.earth/" target="_blank">Democracy Earth</a>
 	  </p>
         </div>
         <div class="col-md-5">
-          <a href="https://www.coinbase.com/stevenwernercs" target="_blank"><img class="featurette-image img-responsive"
-        src="img/square/wallet.png" alt="my bitcoin wallet" title="feel free to deposit to my bitcoin wallet" style="width: 400px; height: 400px;"><a/>
+          <!--a href="https://www.coinbase.com/stevenwernercs" target="_blank"><img class="featurette-image img-responsive"
+        src="img/square/wallet.png" alt="my bitcoin wallet" title="feel free to deposit to my bitcoin wallet" style="width: 400px; height: 400px;"><a/-->
 	   <!--iframe src="http://www.bitlisten.com/" id="bitListen" width="400" height="400" ></iframe>
 	    <script>
 		window.onload = function() {
 			document.getElementById('bitListen').contentWindow.toggleInterface();
 		};
 	    </script-->
+	   <iframe src="http://realtimebitcoin.info/" width="400" height="400"></iframe>
         </div>
       </div>
 
@@ -103,7 +102,7 @@ require_once("header.inc");
         </div>
 	<div class="col-md-7">
           <h2 class="featurette-heading"><a href="http://www.youtube.com/user/Vsauce" target="_blank">Vsauce</a>: <span
-        class="text-muted"><small>Intellegent Entertainment</small></span></h2>
+        class="text-muted"><small>Intelligent Entertainment</small></span></h2>
           <p class="lead">Check out Vsauce(ε &amp; 1 &amp; 2). Watch every video.<br/>
 	</p>
         </div>
