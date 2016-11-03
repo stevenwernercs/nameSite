@@ -50,9 +50,9 @@ require_once("header.inc");
         <div class="col-lg-4">
 	  <img class="img-circle" src="img/square/UTEP.jpg" style="width: 140px; height: 140px;">
           <h3>University of Texas at El Paso</h3>
-           <h4>Bacholar of Science in Computer Science</h4>
+           <h4>Bachelor of Science in Computer Science</h4>
 	  <p>Major GPA 3.7 Overall GPA 3.3<br/>
-	     NSF Research Expierence for Undergraduates<br/>
+	     NSF Research Experience for Undergraduates<br/>
 	     Deans List</p>
           <!-- <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p> -->
         </div><!-- /.col-lg-4 -->

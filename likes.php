@@ -116,7 +116,7 @@ require_once("header.inc");
         class="text-muted">Trappists & IPAs</span></h2>
           <p class="lead">After rough day, slow sipping some good strong craft
 	beer with close friends or colleagues is a great low-key relaxing way to take
-	a load off. For me pairing a nice bitter extra hoppy IPA with a good cheese selection or some 
+	a load off. For me pairing a nice bitter extra hopy IPA with a good cheese selection or some 
 	appetizers makes for a perfect night.
 	<br/>
         </div>

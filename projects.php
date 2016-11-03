@@ -48,7 +48,7 @@ require_once("header.inc");
           <img class="img-circle" src="img/square/minecraft.png" style="width: 140px; height: 140px;">
           <h2>Minecraft ANN</h2>
           <p>NPC (non-player characters) controlled by artificial neural networks. A sort of genetic
-		expieriement using the minecraft universe as the learning stage.</p>
+		experiment using the minecraft universe as the learning stage.</p>
           <!-- <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p> -->
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
@@ -129,7 +129,7 @@ require_once("header.inc");
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">MIPS: <span class="text-muted">simulator</span></h2>
-          <p class="lead">MIPS assembily pipeline simulator in java. Takes in assembily code from text file, converts it to machine code, and then interprets the machine code to change registar values and process assembily instructions. Registar values and MIPS pipeline state is logged after each assembily code instruction. Processor level caching is implemented as well.</a>
+          <p class="lead">MIPS assembly pipeline simulator in java. Takes in assembly code from text file, converts it to machine code, and then interprets the machine code to change register values and process assembly instructions. Register values and MIPS pipeline state is logged after each assembly code instruction. Processor level caching is implemented as well.</a>
 			</p>
         </div>
         <div class="col-md-5">
@@ -152,7 +152,7 @@ require_once("header.inc");
         <div class="col-md-7">
           <h2 class="featurette-heading">SenQual: <span class="text-muted">Anomaly Detection</span></h2>
           <p class="lead">As part of CS 4311 Software Engineering, this web 
-			application lets users specify contstraints over different types of weather sensors
+			application lets users specify constraints over different types of weather sensors
 			and alerts the user if sensor data has exceeded said constraints.<br/>
 			<a href="softwareProject/index.php" target="_blank" name="SenQual">This is a sample until I manage a Tomcat Server</a>
 			</p>
