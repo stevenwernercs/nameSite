@@ -13,7 +13,7 @@
 		<p class="text-muted pull-left">Dallas, Texas</p>
 	    </td>
 	    <td>
-	       <a data-toggle="tooltip" name="mywallet" title="<a href='https://www.coinbase.com/stevenwernercs' target='_blank'> <img style='width: 180px; height: 180px;' alt='my bitcoin wallet' title='feel free to deposit to my bitcoin wallet' src='/img/square/wallet.png'/></a>" href="https://www.coinbase.com/stevenwernercs" target="_blank">
+	       <a data-toggle="tooltip" name="mywallet" title="<a href='https://www.coinbase.com/stevenwernercs' target='_blank'> <img style='width: 180px; height: 180px;' alt='1JT4vE7vJrvnMZrcUEC36mgmxjfZatyPa1' title='feel free to deposit to my bitcoin wallet' src='/img/square/wallet.png'/></a>" href="https://www.coinbase.com/stevenwernercs" target="_blank">
 		 <p class="text-muted" style="text-align:center">
 		   <span class="glyphicon glyphicon-bitcoin" aria-hidden="true"></span>
 		 </p>
