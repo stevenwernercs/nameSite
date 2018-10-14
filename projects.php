@@ -22,9 +22,8 @@ require_once("header.inc");
         <div class="item active">
           <div class="container">
             <div class="carousel-caption">
-	      <p><a href="http://www.cs.utep.edu/" target="_blank" title="Coding & relaxing at the CS Building @ UTEP"><img
-	         src="img/square/workin.jpg" width="200" height="200" class="img-circle">
-			</a></p>
+	      <p><img
+    src="img/square/youtube.jpg" width="200" height="200" class="img-circle"></p>
               <p style="font-size:40px">some<b>projects</b></p>
             </div>
           </div>
@@ -79,7 +78,7 @@ require_once("header.inc");
           <p class="lead">
 		<!-- Work on projects has come to a full stop for the past 2 years while working. 
 		I'm slowly allocating more time for me and my many projet ideas. -->
-		When I'm not working full time as a Senior Software Engineer/partial Project Manager at <a href="http://Lymba.com" target="_blank">Lymba Corporation</a>, or fixing up my newly purchased fixer-upper home, I try to make some time to continue and further explore some of my many project ideas.
+		When I'm not working full time as a Software Engineer, or fixing up my newly purchased fixer-upper home, I try to make some time to continue and further explore some of my many project ideas.
 		 <!-- 
 			With money left over from my time in Iraq, 
 			I am at a unique postion to follow my own passions. 

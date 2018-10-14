@@ -17,11 +17,16 @@ require_once("header.inc");
  
       <div class="row featurette">
 	<div class="col-md-5">
+        <h2 class="featurette-heading">Twitter timeline:</h2>
 	  <a class="twitter-timeline" href="https://twitter.com/StevenWernerCS" data-widget-id="633017232902107136">Your device is either blocking or unable to display the twitter widget: click to open my twitter timeline @StevenWernerCS</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
 	<div class="col-md-6 col-md-offset-1">
-        <h2 class="featurette-heading">Featured tweets:</h2>
+          <h2 class="featurette-heading">Featured tweets:</h2>
+	  <div style="overflow-y: scroll; height:1200px;">
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Block chain based online ranked voting, where we cannot only vote for every discission at no government cost, but can also at anytime select a personal representative to vote for us for particular topics/subtopics</p>&mdash; Steven Werner (@StevenWernerCS) <a href="https://twitter.com/StevenWernerCS/status/1025072628980178944?ref_src=twsrc%5Etfw">August 2, 2018</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Illusion of Choice -Join the campaign!<a href="https://t.co/CPdxlIYteY">https://t.co/CPdxlIYteY</a></p>&mdash; Steven Werner (@StevenWernerCS) <a href="https://twitter.com/StevenWernerCS/status/941775505367470080?ref_src=twsrc%5Etfw">December 15, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">So apparently there was a patient back in 1982..<br><br>And why did we not all grow up with these?<a href="https://t.co/iU1oDHKXT6">https://t.co/iU1oDHKXT6</a> <a href="https://t.co/SWim4Pd9dW">https://t.co/SWim4Pd9dW</a></p>&mdash; Steven Werner (@StevenWernerCS) <a href="https://twitter.com/StevenWernerCS/status/820128212256694273?ref_src=twsrc%5Etfw">January 14, 2017</a></blockquote>
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Waiting for the time where i can recycle water bottles, plastic bags, and product packaging into 3D printable filament at my house...</p>&mdash; Steven Werner (@StevenWernerCS) <a href="https://twitter.com/StevenWernerCS/status/645811115474087937">September 21, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -33,6 +38,7 @@ require_once("header.inc");
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/Gartner_inc">@Gartner_inc</a> <a href="https://twitter.com/hashtag/almostthere?src=hash">#almostthere</a>&#10;When smart rules: container itself knows its empty, gets a drone ride and refills self after sharing usage data</p>&mdash; Steven Werner (@StevenWernerCS) <a href="https://twitter.com/StevenWernerCS/status/632250875575054336">August 14, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>	
+	  </div>
 	</div>
       </div>
 

@@ -111,7 +111,7 @@ require_once("header.inc");
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Craft Beer: <span
-        class="text-muted">Trappists & IPAs</span></h2>
+        class="text-muted">Stouts, Trappists & IPAs</span></h2>
           <p class="lead">After rough day, slow sipping some good strong craft
 	beer with close friends or colleagues is a great low-key relaxing way to take
 	a load off. For me pairing a nice bitter extra hopy IPA with a good cheese selection or some 

@@ -48,6 +48,7 @@
 	        <?php if($pageName=="home"){echo "<li class=\"active\">";}else{echo "<li>";}?><a href="/index.php">home</a></li>
 	        <?php if($pageName=="about"){echo "<li class=\"active\">";}else{echo "<li>";}?><a href="/about.php">about</a></li>
 	        <?php if($pageName=="tweets"){echo "<li class=\"active\">";}else{echo "<li>";}?><a href="/tweets.php">tweets</a></li>
+	        <?php if($pageName=="thoughts"){echo "<li class=\"active\">";}else{echo "<li>";}?><a href="/thoughts.php">thoughts</a></li>
 	        <?php if($pageName=="likes"){echo "<li class=\"active\">";}else{echo "<li>";}?><a href="/likes.php">likes</a></li>
 	        <?php if($pageName=="education"){echo "<li class=\"active\">";}else{echo "<li>";}?><a href="/education.php">education</a></li>
 	        <?php if($pageName=="projects"){echo "<li class=\"active\">";}else{echo "<li>";}?><a href="/projects.php">projects</a></li>

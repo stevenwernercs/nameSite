@@ -11,8 +11,9 @@ require_once("header.inc");
         <div class="item active">
           <div class="container">
             <div class="carousel-caption">
-	      <p><img
-    src="img/square/youtube.jpg" width="200" height="200" class="img-circle"></p>
+	      <p><a href="http://www.cs.utep.edu/" target="_blank" title="Coding & relaxing at the CS Building @ UTEP"><img
+	         src="img/square/workin.jpg" width="200" height="200" class="img-circle">
+			</a></p>
               <p style="font-size:40px">higher<b>education</b></p>
             </div>
           </div>
@@ -48,7 +49,8 @@ require_once("header.inc");
           <!-- <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p> -->
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-	  <img class="img-circle" src="img/square/UTEP.jpg" style="width: 140px; height: 140px;">
+	  <!-- img class="img-circle" src="img/square/UTEP.jpg" style="width: 140px; height: 140px;" -->
+	  <img class="img-circle" src="img/square/UTEP_engineering_seal.png" style="width: 140px; height: 140px;">
           <h3>University of Texas at El Paso</h3>
            <h4>Bachelor of Science in Computer Science</h4>
 	  <p>Major GPA 3.7 Overall GPA 3.3<br/>
