@@ -59,7 +59,7 @@ require_once("header.inc");
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img src="img/square/openworm.jpg" style="width: 140px; height: 140px;">
-          <h2><a href="www.openworm.org" target="_blank" title="OpenWorm.org">OpenWorm</a></h2>
+          <h2><a href="http://www.openworm.org" target="_blank" title="OpenWorm.org">OpenWorm</a></h2>
           <p>OpenWorm aims to build the first comprehensive computational 
 	model of the C. elegans, a microscopic roundworm. I am helping in 
 	order to better understand neural networks from a biological perspective.</p>
