@@ -59,6 +59,18 @@ require_once("header.inc");
           <!-- <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p> -->
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
+        
+      <div class="row">
+	<div class="col-lg-4 col-lg-offset-4">
+	  <!-- img class="img-circle" src="img/square/UTEP.jpg" style="width: 140px; height: 140px;" -->
+	  <img class="img-circle" src="img/square/utd-normi-seal.jpg" style="width: 140px; height: 140px;">
+          <h3>University of Texas at Dallas</h3>
+           <h4>Masters of Science in Applied Cognition and Neuroscience</h4>
+	  <p>Preliminary GPA 4.0 (In Progess)<br/>
+	     Computational Modeling/Intelligent Systems Specialization Area</p>
+          <!-- <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p> -->
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
 
  <hr class="featurette-divider">
 
