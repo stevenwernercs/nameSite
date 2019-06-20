@@ -16,7 +16,7 @@ require_once("header.inc");
    		 src="img/square/dino.jpg" width="200" height="200" class="img-circle"
 		    title="Abandoned amusement park in Berlin"></a></p>
               <p><z style="font-size:40px">steven<b>werner</b></z>
-	      <br/>computer (neruo) scientist</p>
+	      <br/>computer (neuro) scientist</p>
             </div>
           </div>
         </div> 
