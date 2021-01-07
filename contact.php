@@ -16,8 +16,9 @@ require_once("header.inc");
             <p style="font-size:40px">contact <b>werner</b></p>
 	    <p>
 	      <a href="https://twitter.com/StevenWernerCS"           target="_blank"><img src="img/icon/Twitter-icon.png"  alt"twitter" title="tw://stevenWernerCS"/></a>
-	      <a href="https://plus.google.com/+StevenWernerCS"    target="_blank"><img src="img/icon/GooglePlus-icon.png"  alt"google+" title="g+://stevenWernerCS"/></a>
+	      <!-- a href="https://plus.google.com/+StevenWernerCS" target="_blank"><img src="img/icon/GooglePlus-icon.png"  alt"google+" title="g+://stevenWernerCS"/></a -->
 	      <!-- a href="https://plus.google.com/106384600588420199346/posts/p/pub"    target="_blank"><img src="../img/icon/GooglePlus-icon.png"  alt"google+" title="g+ doesn't provide a vanity URL... :("/></a -->
+	      <a href="https://www.blogger.com/profile/18327523293795784844" target="_blank"><img src="../img/icon/Blogger-icon.png"  alt"Blogger" title="Blogger+ doesn't provide a vanity URL"/></a>
 	      <a href="http://www.linkedin.com/in/stevenWernerCS"    target="_blank"><img src="img/icon/LinkedIn-icon.png" alt"linkedin" title="in://stevenWernerCS"/></a>
 	      <a href="https://github.com/stevenWernerCS"            target="_blank"><img src="img/icon/GitHub-icon.png"  alt"github" title="gh://stevenWernerCS"/></a>
   	      <a href="http://www.facebook.com/stevenWernerCS"       target="_blank"><img src="img/icon/Facebook-icon.png"  alt"facebook" title="fb://stevenWernerCS"/></a>
