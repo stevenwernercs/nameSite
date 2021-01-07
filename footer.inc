@@ -13,9 +13,10 @@
 		<p class="text-muted pull-left">Dallas, Texas</p>
 	    </td>
 	    <td>
-	       <a data-toggle="tooltip" name="mywallet" title="<a href='https://www.coinbase.com/stevenwernercs' target='_blank'> <img style='width: 180px; height: 180px;' alt='1JT4vE7vJrvnMZrcUEC36mgmxjfZatyPa1' title='feel free to deposit to my bitcoin wallet' src='/img/square/wallet.png'/></a>" href="https://www.coinbase.com/stevenwernercs" target="_blank">
+	       <a data-toggle="tooltip" name="mywallet" title="<img style='width: 180px; height: 180px;' alt='' src='/img/square/wallet.png'/>">
 		 <p class="text-muted" style="text-align:center">
-		   <span class="glyphicon glyphicon-bitcoin" aria-hidden="true"></span>
+		   <span class="glyphicon glyphicon-bitcoin" aria-hidden="true" title="Click to copy my bitcoin wallet address: 3DLbVr5gu1t5SWaAQ21KvzXGpCDZSJtCj3"  onclick="copyWallet()"></span>
+		<input type="text" style="display:none" id="hiddenWallet" name="hiddenWallet" value="3DLbVr5gu1t5SWaAQ21KvzXGpCDZSJtCj3" />
 		 </p>
 	       </a>
 	    </td>
@@ -46,6 +47,14 @@
 
 
  <script>
+  function copyWallet() {
+    var copyText = document.getElementById("hiddenWallet");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("Copied BitCoin Wallet Address: " + copyText.value);
+  }
+
   $('a[data-toggle="tooltip"]').tooltip({
     animated: 'fade',
     placement: 'top',

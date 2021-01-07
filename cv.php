@@ -15,7 +15,7 @@ require_once("header.inc");
 	      <p><a href="http://www.isca-speech.org/archive/interspeech_2013/i13_1569.html"  target="_blank"><img
     src="img/square/interspeech.jpg" width="200" height="200" class="img-circle"
     title="Interspeech 2013 Lyon, France"></a></p>
-              <a href="documents/Werner-Resume.pdf" target="_blank"><p style="font-size:40px">curriculum<b>vitae</b></p></a>
+              <a href="documents/Werner-Resume.pdf" target="_blank"><p style="font-size:40px">curriculum <b>vitae</b></p></a>
             </div>
           </div>
         </div>

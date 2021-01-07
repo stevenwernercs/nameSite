@@ -99,7 +99,7 @@ echo "</div>";
 		and actual Java for the business layer (Tomcat Server), and MySQL for the database. <br/>
 			
 		Please use this as a very simple example of javascript form interaction. Thank you.<br/>
-		<a href="../main/projects.php#SenQual">return to StevenWerner.Name projects</a>
+		<a href="../projects.php#SenQual">return to StevenWerner.Name projects</a>
 	</p>	
 	<hr>
    </div> 

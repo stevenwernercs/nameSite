@@ -22,9 +22,9 @@ require_once("header.inc");
         <div class="item active">
           <div class="container">
             <div class="carousel-caption">
-	      <p><img
-    src="img/square/youtube.jpg" width="200" height="200" class="img-circle"></p>
-              <p style="font-size:40px">some<b>projects</b></p>
+	      <p><a href="https://www.google.com/maps/place/Taco+Bell/@37.6022748,-122.5092673,15z/data=!4m5!3m4!1s0x0:0x1f4f672b1a9eb1f7!8m2!3d37.5971406!4d-122.5036883" title="Pacifica State Beach: Just in front of the Taco Bell" target="_blank"><img
+    src="img/square/youtube.jpg" width="200" height="200" class="img-circle"></a></p>
+              <p style="font-size:40px">some <b>projects</b></p>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ require_once("header.inc");
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="img/square/minecraft.png" style="width: 140px; height: 140px;">
+          <a href="https://www.microsoft.com/en-us/research/project/project-malmo/" title="Project Malmo" target="_blank"><img class="img-circle" src="img/square/minecraft.png" style="width: 140px; height: 140px;"></a>
           <h2>Minecraft ANN</h2>
           <p>NPC (non-player characters) controlled by artificial neural networks. A sort of genetic
 		experiment using the minecraft universe as the learning stage.</p>
@@ -58,8 +58,8 @@ require_once("header.inc");
           <!-- <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p> -->
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="img/square/openworm.jpg" style="width: 140px; height: 140px;">
-          <h2><a href="http://www.openworm.org" target="_blank" title="OpenWorm.org">OpenWorm</a></h2>
+          <a href="http://www.openworm.org" target="_blank" title="OpenWorm.org"><img src="img/square/openworm.jpg" style="width: 140px; height: 140px;"></a>
+          <h2>OpenWorm</h2>
           <p>OpenWorm aims to build the first comprehensive computational 
 	model of the C. elegans, a microscopic roundworm. I am helping in 
 	order to better understand neural networks from a biological perspective.</p>

@@ -15,7 +15,7 @@ require_once("header.inc");
     target="_blank">
 	      <img src="img/square/hamock.jpg" width="200" height="200"
     class="img-circle" title="Slow Life Inn, Pai, Thailand"></a></p>
-              <p style="font-size:40px">steven<b>likes</b></p>
+              <p style="font-size:40px">some <b>likes</b></p>
             </div>
           </div>
         </div>

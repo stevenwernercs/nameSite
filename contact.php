@@ -13,7 +13,7 @@ require_once("header.inc");
           <div class="container">
            <div class="carousel-caption">
 	    <p><img src="img/square/me.jpg" width="100" height="100"  class="img-circle"></p>
-            <p style="font-size:40px">contact<b>werner</b></p>
+            <p style="font-size:40px">contact <b>werner</b></p>
 	    <p>
 	      <a href="https://twitter.com/StevenWernerCS"           target="_blank"><img src="img/icon/Twitter-icon.png"  alt"twitter" title="tw://stevenWernerCS"/></a>
 	      <a href="https://plus.google.com/+StevenWernerCS"    target="_blank"><img src="img/icon/GooglePlus-icon.png"  alt"google+" title="g+://stevenWernerCS"/></a>
