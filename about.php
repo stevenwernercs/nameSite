@@ -50,7 +50,7 @@ require_once("header.inc");
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <a href="https://www.kbr.com" title="KBR" target="_blank"><img class="img-circle" src="img/KBR-Inc-Logo.png" style="height: 140px;"></a>
-          <h2>Accountat</h2>
+          <h2>Accountant</h2>
           <p>ETS'ed out of the Military and became a contractor in Iraq for 18 months. Managed the accounting for the Hot Refuling farm and automated all reports, making 2 other accounting possistions obsolete.</p>
           <!-- <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p> -->
         </div><!-- /.col-lg-4 -->
