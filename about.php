@@ -154,13 +154,15 @@ require_once("header.inc");
 
 	function initMap() {
 	  const mapOptions = {
-	    center: { lat: 50, lng: 8 },
-	    zoom: 7,
+	    center: { lat: 35, lng: -97},
+	    zoom: 4,
 	  };	
 	  
 	  map = new google.maps.Map(document.getElementById('map'), mapOptions);
 	  
 	  createTogglers();
+	  
+          startup();
 
 	  // instantiate the overview map without controls
 	  overview = new google.maps.Map(document.getElementById("overview"), {
@@ -184,6 +186,7 @@ require_once("header.inc");
 	      )
 	    );
 	  });
+
 	};
 
 	//google.maps.event.addDomListener(window, 'load', initMap);
@@ -248,10 +251,10 @@ require_once("header.inc");
 
 	function startup() { 
 		// for example, this toggles kml b on load and updates the menu selector
-		var checkit = document.getElementById('b');
+		var checkit = document.getElementById('a');
 		checkit.checked = true;
-		toggleKML(checkit, 'b');
-		highlight(checkit, 'selector1');
+		toggleKML(checkit, 'a');
+		highlight(checkit, 'selector-a');
 	 }
 		
 </script>
