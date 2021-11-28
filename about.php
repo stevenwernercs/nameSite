@@ -144,7 +144,7 @@ require_once("header.inc");
 	var kml = {
 	    a: {
 	        name: "Life: Everywhere I spent more than a week at (Not Exact Locations)",
-		url: "https://stevenwernercs.com/documents/life-lowPrecision.km"
+		url: "https://stevenwernercs.com/documents/life-lowPrecision.kml"
 	    },
 	    b: {
 	        name: "Wiki: Events since 1985",
