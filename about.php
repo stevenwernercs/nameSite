@@ -143,12 +143,12 @@ require_once("header.inc");
 	// lets define some vars to make things easier later
 	var kml = {
 	    a: {
-	        name: "Life: Everywhere I spent more than a week at",
-		url: "https://stevenwernercs.com/documents/life-tmp.kml"
+	        name: "Life: Everywhere I spent more than a week at (Not Exact Locations)",
+		url: "https://stevenwernercs.com/documents/life-lowPrecision.km"
 	    },
 	    b: {
 	        name: "Wiki: Events since 1985",
-		url: "https://stevenwernercs.com/documents/wiki-800.kml"
+		url: "https://stevenwernercs.com/documents/wiki-1985-no-sports-over-1.kml"
 	    }
 	};
 
@@ -194,13 +194,15 @@ require_once("header.inc");
 
         	var layer = new google.maps.KmlLayer(kml[id].url, {
 	            preserveViewport: true,
-        	    suppressInfoWindows: true 
+        	    suppressInfoWindows: false 
 	        });
-	 	layer.addListener('click', function(event) {
+
+	 	/*layer.addListener('click', function(event) {
 		    var content = event.featureData.infoWindowHtml;
 		    var testimonial = document.getElementById('capture');
 		    testimonial.innerHTML = content;
-		});
+		});*/
+
         	// store kml as obj
 	        kml[id].obj = layer;
         	kml[id].obj.setMap(map);
