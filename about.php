@@ -71,8 +71,8 @@ require_once("header.inc");
           <a href="https://www.m-v-t.com" title="Mesilla Valley Transportation" target="_blank"><img class="img-circle" src="img/square/mvt.jpg" style="width: 140px; height: 140px;"></a>
           <h2>CDL</h2>
           <p>Was the youngest age allowed by law to be an over the
-      road truck driver, did that for 18 months. Always had plans for a
-      PhD but wanted to take some time to travel the states, school
+      road truck driver, did that for 18 months. Always had plans for
+      Graduate School but wanted to take some time to travel the states. School
       wasn't going anywhere.</p>
           <!-- <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p> -->
         </div><!-- /.col-lg-4 -->
@@ -113,11 +113,21 @@ require_once("header.inc");
       
       <div class="row">
 	<div class="col-lg-2">
-		<div id="toggle_box" style="position: absolute; top: 100px; right: 20px; padding: 10px; background: #fff; z-index: 5; "></div>
 	</div>
 	<div class="col-lg-8">
 		<div id="map"></div>
 		<div id="overview"></div>
+	</div>
+	<div class="col-lg-2">
+		<div id="toggle_box"></div>
+		<br/>
+		<ul>
+			<li>Download theses &amp;open these in Google Earth for timeline support</li>
+			<ul>
+				<li><a href="documents/life-lowPrecision.kml">life-lowPrecision.kml</a></li>
+				<li><a href="documents/wiki-1985-no-sports-over-1.kml">wiki-1985-present-high-viewed-events.kml</a></li>
+			</ul>
+		</ul>
 	</div>
       </div>
       <div class="row">
