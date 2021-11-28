@@ -122,7 +122,7 @@ require_once("header.inc");
 		<div id="toggle_box"></div>
 		<br/>
 		<ul>
-			<li>Download theses &amp;open these in Google Earth for timeline support</li>
+			<li>Or... download the KML files &amp; open these in Google Earth Pro for full timeline support</li>
 			<ul>
 				<li><a href="documents/life-lowPrecision.kml">life-lowPrecision.kml</a></li>
 				<li><a href="documents/wiki-1985-no-sports-over-1.kml">wiki-1985-present-high-viewed-events.kml</a></li>
@@ -228,7 +228,7 @@ require_once("header.inc");
 
 	// create the controls dynamically because it's easier, really
 	function createTogglers() {
-	    var html = "<form><ul>";
+	    var html = "<form><ul><li>Control KML Map Layers:</li><ul>";
 	    for (var prop in kml) {
         	html += "<li id=\"selector-" + prop + "\"><input type='checkbox' id='" + prop + "'" +
 	        " onclick='highlight(this,\"selector-" + prop + "\"); toggleKML(this.checked, this.id)' \/>" +
@@ -236,7 +236,7 @@ require_once("header.inc");
 	    }
 	    html += "<li class='control'><a href='#' onclick='removeAll();return false;'>" +
 	    "Remove all layers<\/a><\/li>" + 
-	    "<\/ul><\/form>";
+	    "<\/ul><\/ul><\/form>";
 	
 	    document.getElementById("toggle_box").innerHTML = html;
 	};
