@@ -12,7 +12,6 @@ require_once("header.inc");
  border: thin solid #333;
  }
 #overview {
-  position: absolute;
   left: 40px;
   height: 175px;
   width: 175px;
@@ -113,14 +112,7 @@ require_once("header.inc");
       
       <div class="row">
 	<div class="col-lg-2">
-	</div>
-	<div class="col-lg-8">
-		<div id="map"></div>
-		<div id="overview"></div>
-	</div>
-	<div class="col-lg-2">
 		<div id="toggle_box"></div>
-		<br/>
 		<ul>
 			<li>Or... download the KML files &amp; open these in Google Earth Pro for full timeline support</li>
 			<ul>
@@ -128,6 +120,10 @@ require_once("header.inc");
 				<li><a href="documents/wiki-1985-no-sports-over-1.kml">wiki-1985-present-high-viewed-events.kml</a></li>
 			</ul>
 		</ul>
+	</div>
+	<div class="col-lg-8">
+		<div id="map"></div>
+		<div id="overview"></div>
 	</div>
       </div>
       <div class="row">
