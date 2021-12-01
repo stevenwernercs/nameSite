@@ -1,0 +1,1000 @@
+  236  ./minecraft-launcher 
+  237  strings /usr/lib64/libstdc++.so.6 | grep GLIBXX
+  238  strings /usr/lib64/libstdc++.so.6 | grep GLIBCXX
+  239  ./minecraft-launcher 
+  240  sudo yum install libstdc++
+  241  sudo find / -name "libstdc++.so.6*"
+  242  locate "libstdc++.so.6*"
+  243  locate "libstdc++.so.6"
+  244  ls
+  245  vim word2vec.ipynb
+  246  pip install genisim
+  247  pip install gensim
+  248  sudo pip install gensim
+  249  pip install --upgrade pop
+  250  pip install --upgrade pip
+  251  sudo pip install --upgrade pip
+  252  pip install --upgrade pip
+  253  sudo pip install gensim
+  254  sudo pip upgrade numpy
+  255  sudo pip install numpy
+  256  sudo pip install gensim --ignore-installed
+  257  sudo pip install gensim 
+  258  sudo pip install logging
+  259  ls
+  260  git clone https://github.com/llSourcell/word_vectors_game_of_thrones-LIVE.git
+  261  ls
+  262  cd word_vectors_game_of_thrones-LIVE/
+  263  ls
+  264  find
+  265  ls
+  266  find -name "req*"
+  267  find -name "pip*"
+  268  sudo pip install -r pip-requirements.txt
+  269  ls
+  270  cat README.md 
+  271  ls
+  272  sudo pip install nltk
+  273  sudo pip install gensim
+  274  sudo pip install gensim.models.word2vec
+  275  sudo pip install gensim
+  276  sudo pip3 install gensim
+  277  sudo pip install gensim
+  278  cd ..
+  279  cd zulu
+  280  ls
+  281  cd src/
+  282  ls
+  283  cd main/
+  284  ls
+  285  cd java/
+  286  ls
+  287  grep System.out * -r
+  288  grep log * -r
+  289  grep System.out * -r
+  290  grep System.out * -rl
+  291  grep System.out * -rl | xargs sed -i 's/System.out.println/log.debug/'
+  292  grep System.out * -rl
+  293  grep System.out * -r
+  294  cd ..
+  295  mvn clean install 
+  296  ps aux | grep java
+  297  kill 10815
+  298  ps aux | grep java
+  299  kill -f 10815
+  300  kill -9 10815
+  301  ls
+  302  ./run.sh 
+  303  ls -la run.sh 
+  304  cd projects/zulu
+  305  ls
+  306  cat brain.json 
+  307  ls
+  308  cat brain.json
+  309  cat brain.json_new 
+  310  cat brain.json
+  311  vim brain.json
+  312  git add -up
+  313  git reset
+  314  git add -up
+  315  git commit -m "json serialize brain and load, plus fix some transmitter and potiential decay issues"
+  316  git fetch
+  317  git push origin master
+  318  git status
+  319  gitk
+  320  bg
+  321  git push origin malmo
+  322  grep brain.out -r *
+  323  vim log4j.properties 
+  324  cd projects/
+  325  ls
+  326   sudo sensors-detect
+  327  sensors
+  328  watch sensors
+  329  cd
+  330  ls
+  331  cd scripts/
+  332  ls
+  333  ln -s ~/projects/environment/hardware/wireless-interface/ASUS_PCE-N53_rt5592sta/startInternet.sh 
+  334  vim sensors.sh
+  335  ls
+  336  chmod 777 sensors.sh 
+  337  git status
+  338  ls
+  339  pwd
+  340  ls
+  341  git status
+  342  git add -up
+  343  git status
+  344  git add sensors.sh startInternet.sh
+  345  git status
+  346  git fetch
+  347  git stataus
+  348  git status
+  349  cdr
+  350  ls
+  351  git statuis
+  352  git status
+  353  git commit -m "updates with sensors"
+  354  git pull --rebase origin master
+  355  git status
+  356  git push origin master
+  357  ls
+  358  cd
+  359  cd projects/
+  360  ls
+  361  cd 3rdParty/
+  362  ls
+  363  cd malmo/
+  364  ls
+  365  cd 
+  366  cd projects/zulu
+  367  ls
+  368  ./run.sh 
+  369  grep brain.out -r *
+  370  grep '>"' -r *
+  371  vim
+  372  git add -up
+  373  git commit -m "Use Logger and hotkey snapshot"
+  374  git status
+  375  git add src/main/java/com/trifidearth/zulu/brain/KeyboardEnvironment.java
+  376  git add src/main/java/com/trifidearth/zulu/brain/Environment.java
+  377  git status
+  378  rm brain_SNAPSHOT_n-41_s-41_d-41_b-*
+  379  rm brain_SNAPSHOT_n-41_s-55_d-0_i-5_r-10_o-26_b-x-0_y-0_z-0_r-2_1560719854021 
+  380  ls -la
+  381  git status
+  382  git add -up
+  383  git commit --amend
+  384  git status
+  385  git add src/main/java/render/sound/SoundUtils.java
+  386  git commit --amend
+  387  git status
+  388  git push origin malmo 
+  389  mv brain_SNAPSHOT_n-41_s-15_d-36_i-5_r-10_o-26_b-x-0_y-0_z-0_r-2_1560719895293 brain_SNAPSHOT_n-41_s-15_d-36_i-5_r-10_o-26_b-x-0_y-0_z-0_r-2_1560719895293.json
+  390  ls
+  391  ls -la
+  392  cd ..
+  393  cd nameSite/
+  394  ls
+  395  vim index.php 
+  396  git add -up 
+  397  git commit -m "fix a type on the front page.. lol"
+  398  git status
+  399  gti push origin master
+  400  git push origin master
+  401  ls
+  402  cat ./package.sh 
+  403  ./package.sh /var/www/html/nameSite/
+  404  ls
+  405  ./package.sh /var/www/html/nameSite/
+  406  git push origin master
+  407  locate Minecraft
+  408  locate Minecraft | grep -v zulu
+  409  locate Minecraft | egrep -v "(zulu|malmo)"
+  410  tip
+  411  top
+  412  sensors
+  413  ls
+  414  cd 
+  415  cd apps/
+  416  ls
+  417  cd IDE/
+  418  ls
+  419  cd id
+  420  cd intellij/
+  421  ls
+  422  cd idea-IC-182.3911.36
+  423  ls
+  424  ./bin/idea.sh 
+  425  ./projects/environment/hardware/wireless-interface/ASUS_PCE-N53_rt5592sta/startInternet.sh 
+  426  pip install jupyter
+  427  sudo pip install jupyter
+  428  cd projects/
+  429  cd 3rdParty/
+  430  ls
+  431  mkdir wordEmbeddings
+  432  cd wordEmbeddings/
+  433  ls
+  434  vim asdf
+  435  mv asdf  understanding-word-vectors.ipynb
+  436  ls
+  437  jupyter notebook --generate-config
+  438  jupyter understanding-word-vectors.ipynb 
+  439  jupyter notebook
+  440  sudo yum install kazam
+  441  sudo yum install epel-release
+  442  sudo -y yum install ffmpeg ffmpeg-devel libX11-devel libXfixes-devel jack-audio-connection-kit-devel mesa-libGL-devel git
+  443  sudo yum -y install ffmpeg ffmpeg-devel libX11-devel libXfixes-devel jack-audio-connection-kit-devel mesa-libGL-devel git
+  444  cd projects/3rdParty/
+  445  ls
+  446  git clone https://github.com/MaartenBaert/ssr
+  447  cd ssr/
+  448  ls
+  449  ./simple-build-and-install 
+  450  alternatives
+  451  alternatives --config cmake
+  452  sudo alternatives --config cmake
+  453  alternatives --config cmake
+  454  ./simple-build-and-install 
+  455  #./simple-build-and-install 
+  456  vim /etc/yum.repos.d/atrpm.repo
+  457  sudo vim /etc/yum.repos.d/atrpm.repo
+  458  sudo yum install ffmpeg ffmpeg-devel libX11-devel libXfixes-devel jack-audio-connection-kit-devel mesa-libGL-devel git
+  459  vim /etc/yum.repos.d/atrpm.repo
+  460  sudo rm /etc/yum.repos.d/atrpm.repo
+  461  rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+  462  sudo rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+  463  yum install simplescreenrecorder
+  464  sudo yum install simplescreenrecorder
+  465  ssr
+  466  simplescreenrecorder 
+  467  cd projects/
+  468  ls
+  469  cd zulu
+  470  ls
+  471  git add -up
+  472  git commit -m "add hotbar observations"
+  473  git status
+  474  git push origin master
+  475  git fetch
+  476  git push origin master
+  477  ls
+  478  cd
+  479  cd projects/
+  480  ls
+  481  cd environment/
+  482  ls
+  483  cd hardware/
+  484  ls
+  485  cd wireless-interface/
+  486  ls
+  487  cd ASUS_PCE-N53_rt5592sta/
+  488  ls
+  489  ./startInternet.sh 
+  490  #./startInternet.sh 
+  491  ls
+  492  cd
+  493  ls
+  494  sudo pacman -S gnome
+  495  sudo vim /etc/sysconfig/selinux 
+  496  sudo restart
+  497  sudo shutdown
+  498  ls
+  499  screen -S ok
+  500  sudo vim /etc/sysconfig/selinux 
+  501  vim /etc/sysconfig/selinux 
+  502  ls
+  503  exec gnome-session
+  504  ls
+  505  vim ~/.cache/gdm/session.log
+  506  yum list installed "*mod-nvidia"
+  507  exec gnome-session
+  508  ls
+  509  lr vim ~/.cache/
+  510  lr vim ~/.cache/abrt/
+  511  lr ~/.cache/abrt/
+  512  cat ~/.cache/abrt/lastnotification 
+  513  ls
+  514  sestatus
+  515  dconf reset -f /org/gnome/
+  516  dconf reset -f /org/gnome
+  517  dconf reset -f /org/gnome/
+  518  sudo dconf reset -f /org/gnome/
+  519  sudo dconf reset -f /org/mate/panel/
+  520  sudo dconf reset -f /org/mate/
+  521  killall gnome-pane
+  522  killall mat
+  523  sudo dconf reset -f /org/mate/terminal/
+  524  dconf reset -f /org/mate/terminal/
+  525  mate-panel
+  526  mate-session
+  527  mate-about
+  528  ps aux
+  529  ps aux | less
+  530  ps aux | grep abt
+  531  ps aux | grep abrt
+  532  tail -f /usr/bin/abrt-watch-log 
+  533  ps aux | grep abrt
+  534  ls
+  535  dconf reset -f /org/mate/terminal/
+  536  echo $DISPLAY
+  537  echo $DIRSTACK 
+  538  ls
+  539  DISPLAY=":0"
+  540  mate-session
+  541  echo $DISPLAY
+  542  mate-session
+  543  ls
+  544  gnome-session
+  545  gnome-session-quit 
+  546  echo $DISPLAY
+  547  DISPLAY=":0"
+  548  echo $DISPLAY
+  549  gnome-session-quit 
+  550  gnome-session-properties 
+  551  mate-session
+  552  gnome-help 
+  553  gnome-shell
+  554  gnome-software 
+  555  gnomevfs-monitor 
+  556  gnome-terminal 
+  557  gnome-session &
+  558  gnome-terminal 
+  559  gnome-session &
+  560  gnome-session -help
+  561  gnome-session --debug
+  562  gnome-session --debug |less
+  563  gnome-session --debug 
+  564  ls
+  565  hostname -i
+  566  service httpd restart
+  567  nslookup stevenwernercs.com
+  568  curl stevenwernercs.com
+  569  nslookup stevenwernercs.com
+  570  ipconfig
+  571  ifconfig
+  572  nslookup stevenwernercs.com
+  573  sudo tail /var/log/httpd/*
+  574  sudo su
+  575  /var/www/html/nameSite/wp-login.php
+  576  /var/www/html/nameSite/
+  577  cd /var/www/html/nameSite/
+  578  ls
+  579  find -n wp-login.php
+  580  find -name "wp-login.php"
+  581  grep -r :wp-login.php:
+  582  grep -r "wp-login.php"
+  583  grep -r "wp-login.php" *
+  584  grep -r "wp-login" *
+  585  grep -r "login" *
+  586  vi /var/www/html/nameSite/footer.inc
+  587  ifconfig
+  588  hostname -i
+  589  ls
+  590  passwd
+  591  ls
+  592  ls -alrt
+  593  vi .xsessionrc
+  594  ls
+  595  cat .xsession
+  596  cat .xsessionrc 
+  597  echo $XDG_CURRENT_DESKTOP 
+  598  echo $XDG_DATA_DIRS 
+  599  ls
+  600  vi ~/.xsessionrc 
+  601  echo $XDG_CURRENT_DESKTOP 
+  602  cd projects/
+  603  ls
+  604  cd resume/
+  605  git pull
+  606  git status
+  607  ls
+  608  cd ..
+  609  cd nameSite/
+  610  ls
+  611  cat package
+  612  cat package.sh 
+  613  cd documents/
+  614  ls
+  615  cp ../../resume/Werner-resume.pdf  Werner-Resume.pdf 
+  616  git status
+  617  cd ..
+  618  ls
+  619  #ls /var/www/html/nameSite/
+  620  cat package.sh 
+  621  ./package.sh /var/www/html/nameSite/
+  622  ls
+  623  cd
+  624  ls
+  625  ls -alrt
+  626  vi ~/.xsessionrc 
+  627  ls
+  628  htop
+  629  docker images
+  630  sudo docker images
+  631  cd /var/www/html/
+  632  ls
+  633  cd nameSite
+  634  ls
+  635  cd /var/log/httpd/
+  636  ls
+  637  sudo su
+  638  ifconfig
+  639  hostname -i
+  640  sudo certbot --apache
+  641  sudo certbot renew --dry-run
+  642  git status
+  643  ls
+  644  cd
+  645  cd projects/
+  646  ls
+  647  cd resume/
+  648  git status
+  649  git pull
+  650  git pull --rebase origin master
+  651  git status
+  652  git pull --rebase origin master
+  653  git status
+  654  git fetch
+  655  git status
+  656  cd ..
+  657  ls
+  658  cp resume/Werner-resume.pdf nameSite/documents/Werner-Resume.pdf 
+  659  cd nameSite/
+  660  ls
+  661  #./package.sh 
+  662  ./package.sh /var/www/html/nameSite/
+  663  sudo yum install -y xrdp
+  664  sudo systemctl enable xrdp
+  665  sudo systemctl start xrdp
+  666  sudo firewall-cmd --add-port=3389/tcp --permanent
+  667  sudo firewall-cmd --reload
+  668  passwd
+  669  locate httpd.conf
+  670  cd /etc/httpd/conf
+  671  ls
+  672  cp httpd.conf httpd.conf.bk-2021
+  673  cp httpd.conf.bk-2021 ~/projects/www/
+  674  cd ~/projects/www/
+  675  ls
+  676  ls -alrtS
+  677  ls -alrS
+  678  diff httpd.conf httpd.conf.bk-2021 
+  679  ls
+  680  cp httpd.conf httpd.conf.bk-2021-beforessl
+  681  mv httpd.conf.bk-2021 httpd.conf
+  682  git add -up
+  683  git status
+  684  git add httpd.conf.bk-2021-beforessl
+  685  git status
+  686  ls
+  687  vi httpd.conf
+  688  git commit -m "update with latest ssl"
+  689  git status
+  690  git push origin master
+  691  ls
+  692  gitk
+  693  ls
+  694  cat package
+  695  cat package.sh 
+  696  cat package-exclude.ctl 
+  697  cp package.sh checkLiveDiff.sh
+  698  vi checkLiveDiff.sh
+  699  chmod 777 checkLiveDiff.sh
+  700  ./checkLiveDiff.sh 
+  701  vi checkLiveDiff.sh
+  702  ./checkLiveDiff.sh 
+  703  cp /etc/httpd/conf.d/ssl.conf ssl.conf
+  704  ./checkLiveDiff.sh 
+  705  vi checkLiveDiff.sh
+  706  cat package.sh 
+  707  diff httpd.conf /etc/httpd/conf/
+  708  diff httpd.conf /etc/httpd/conf/httpd.conf
+  709  diff httpd.conf /etc/httpd/conf
+  710  diff ssl.conf /etc/httpd/conf
+  711  cat package.sh 
+  712  git status
+  713  git add checkLiveDiff.sh
+  714  git add -up
+  715  git staus
+  716  git status
+  717  ls
+  718  echo "google certbot" >> README
+  719  git add README
+  720  git status
+  721  git commit -m "adding check script and note"
+  722  git status
+  723  ls
+  724  cat tuts/
+  725  cat tuts/https
+  726  ls
+  727  cd ..
+  728  ls
+  729  tar czf www.tgz www/
+  730  mutt
+  731  sendEmail
+  732  mailx
+  733  clear
+  734  mailx -a www.tgz -S "www config" stevenwernercs@gmail.com
+  735  mailx -a www.tgz -s "www config" stevenwernercs@gmail.com
+  736  echo 'mailx -a www.tgz -s "www config" stevenwernercs@gmail.com < /dev/null' >> archiveMail.sh
+  737  cat archiveMail.sh 
+  738  ls
+  739  vi archiveMail.sh 
+  740  ls
+  741  chmod archiveMail.sh 
+  742  chmod 777 archiveMail.sh 
+  743  ls
+  744  ./archiveMail.sh 
+  745  vi archiveMail.sh 
+  746  ls
+  747  mv archiveMail.sh www
+  748  ls
+  749  cd www/
+  750  ls
+  751  ./archiveMail.sh 
+  752  git add -up
+  753  ls
+  754  git status
+  755  git add archiveMail.sh
+  756  git status
+  757  git commit -m "add mail script"
+  758  git status
+  759  cd ..
+  760  ls
+  761  rm www.tgz 
+  762  ls
+  763  cd www/
+  764  ls
+  765  ./archiveMail.sh 
+  766  echo $XDG_CURRENT_DESKTOP 
+  767  for each in $(env | grep XDG); do echo $each; done_
+  768  for each in $(env | grep XDG); do echo $each; done
+  769  echo "mate-session" > ~/.Xclients
+  770  chmod a+x ~/.Xclients
+  771  ls -h www.tgz 
+  772  ls -lh www.tgz 
+  773  clear
+  774  vi /etc/xrdp/xrdp.ini 
+  775  sudo vi /etc/xrdp/xrdp.ini
+  776  cd /dev
+  777  ls
+  778  vi /etc/fstab 
+  779  sudo vi /etc/fstab 
+  780  sudo mount -a
+  781  ddd
+  782  d
+  783  cd /drives/
+  784  ls
+  785  ls -lart
+  786  cd elaine/
+  787  ls
+  788  ls -alrt
+  789  ls
+  790  cd ..
+  791  ls
+  792  find
+  793  cat /etc/fstab 
+  794  ls -lrt /etc/fstab 
+  795  ls
+  796  ls -lart
+  797  ls
+  798  vi /etc/xrdp/xrdp.ini 
+  799  sudo vi /etc/xrdp/xrdp.ini 
+  800  cd
+  801  ls
+  802  rm www.tgz 
+  803  ls -arlt
+  804  rm www.tgz 
+  805  ls
+  806  sudo vi /etc/xrdp/xrdp.ini 
+  807  netstat -tlupn | grep xrdp
+  808  netstat -tlupn | grep vnc
+  809  netstat -tlupn | grep 59
+  810  netstat -tlupn 
+  811  sudo netstat -tlupn 
+  812  sudo vi /etc/xrdp/xrdp.ini 
+  813  sudo netstat -tlupn | grep 
+  814  sudo vi /etc/xrdp/xrdp.ini 
+  815  sudo netstat -tlupn
+  816  cd
+  817  sudo vi /etc/xrdp/xrdp.ini 
+  818  cd projects/
+  819  ls
+  820  rm www.tgz 
+  821  ls
+  822  ls -lart
+  823  cd zulu
+  824  ls
+  825  cd malmo/
+  826  ls
+  827  cd ..
+  828  ls
+  829  cat run.sh 
+  830  ./run.sh 
+  831  ps aux
+  832  ps aux | grep mal
+  833  ps aux | grep forg
+  834  ./run.sh 
+  835  docker
+  836  docker pull openworm/openworm
+  837  dockerd
+  838  root dockerd
+  839  sudo dockerd
+  840  #@shi5mar27beauty
+  841  sudo dockerd
+  842  #Bones8185DyVm27310!
+  843  sudo dockerd
+  844  sudo echo
+  845  cd
+  846  cd scripts/
+  847  ls
+  848  cat dimscreens.sh 
+  849  xrandr
+  850  vi dimscreens.sh 
+  851  sudo vi /etc/xrdp/xrdp.ini 
+  852  vi dimscreens.sh 
+  853  xrandr
+  854  ls
+  855  vi malmo/levels/lvl1-Breakfast.xml 
+  856  cat /etc/passwd
+  857  echo fuck you
+  858  sudo echo fuck you
+  859  su root
+  860  sudo dockerd
+  861  docker pull openworm/openworm
+  862  sudo docker pull openworm/openworm
+  863  cd /opt/gitlab/
+  864  ls
+  865  ls a-lrt
+  866  ls -lart
+  867  ./run.sh -d 5000
+  868  sudo ./run.sh -d 5000
+  869  cd output/
+  870  ls
+  871  ls -alrt
+  872  cd ..
+  873  cd nameSite/
+  874  ls
+  875  vi about.php 
+  876  ls
+  877  ls /var/www/html/nameSite_DEV/
+  878  mv html, body {
+  879    height: 370px;
+  880    padding: 0;
+  881    margin: 0;
+  882    }
+  883  #map {
+  884   height: 360px;
+  885   width: 300px;
+  886   overflow: hidden;
+  887   float: left;
+  888   border: thin solid #333;
+  889   }
+  890  #capture {
+  891   height: 360px;
+  892   width: 480px;
+  893   overflow: hidden;
+  894   float: left;
+  895   background-color: #ECECFB;
+  896   border: thin solid #333;
+  897   border-left: none;
+  898  ls
+  899  mv /var/www/html/nameSite_DEV/html, body {
+  900    height: 370px;
+  901    padding: 0;
+  902    margin: 0;
+  903    }
+  904  #map {
+  905   height: 360px;
+  906   width: 300px;
+  907   overflow: hidden;
+  908   float: left;
+  909   border: thin solid #333;
+  910   }
+  911  #capture {
+  912   height: 360px;
+  913   width: 480px;
+  914   overflow: hidden;
+  915   float: left;
+  916   background-color: #ECECFB;
+  917   border: thin solid #333;
+  918   border-left: none;
+  919  mv /var/www/html/nameSite_DEV/about.php html, body {
+  920    height: 370px;
+  921    padding: 0;
+  922    margin: 0;
+  923    }
+  924  #map {
+  925   height: 360px;
+  926   width: 300px;
+  927   overflow: hidden;
+  928   float: left;
+  929   border: thin solid #333;
+  930   }
+  931  #capture {
+  932   height: 360px;
+  933   width: 480px;
+  934   overflow: hidden;
+  935   float: left;
+  936   background-color: #ECECFB;
+  937   border: thin solid #333;
+  938   border-left: none;
+  939  mv /var/www/html/nameSite_DEV/about.php /var/www/html/nameSite_DEV/about_TEST.php
+  940  grep nameSite_DEV /etc/httpd/conf/httpd.conf
+  941  grep -B3  nameSite_DEV /etc/httpd/conf/httpd.conf
+  942  ls
+  943  ./package.sh 
+  944  ./package.sh /var/www/html/nameSite_DEV/
+  945  rm /var/www/html/nameSite_DEV/about_TEST.php 
+  946  vi about.php 
+  947  ./package.sh /var/www/html/nameSite_DEV/
+  948  vi about.php 
+  949  ./package.sh /var/www/html/nameSite_DEV/
+  950  vi about.php 
+  951  ./package.sh /var/www/html/nameSite_DEV/
+  952  vi about.php 
+  953  ./package.sh /var/www/html/nameSite_DEV/
+  954  vi about.php likes.php -p
+  955  ./package.sh /var/www/html/nameSite_DEV/
+  956  vi about.php likes.php -p
+  957  ./package.sh /var/www/html/nameSite_DEV/
+  958  vi about.php likes.php -p
+  959  ./package.sh /var/www/html/nameSite_DEV/
+  960  vi about.php likes.php -p
+  961  ./package.sh /var/www/html/nameSite_DEV/
+  962  vi about.php likes.php -p
+  963  ./package.sh /var/www/html/nameSite_DEV/
+  964  vi about.php likes.php -p
+  965  ./package.sh /var/www/html/nameSite_DEV/
+  966  vi about.php likes.php -p
+  967  vi about.php 
+  968  vi about.php likes.php -p
+  969  ./package.sh /var/www/html/nameSite_DEV/
+  970  vi about.php likes.php -p
+  971  ./package.sh /var/www/html/nameSite_DEV/
+  972  vi about.php 
+  973  ./package.sh /var/www/html/nameSite_DEV/
+  974  vi about.php 
+  975  ./package.sh /var/www/html/nameSite_DEV/
+  976  vi about.php 
+  977  ./package.sh /var/www/html/nameSite_DEV/
+  978  vi about.php 
+  979  ./package.sh /var/www/html/nameSite_DEV/
+  980  vi about.php 
+  981  ./package.sh /var/www/html/nameSite_DEV/
+  982  vi about.php 
+  983  ./package.sh /var/www/html/nameSite_DEV/
+  984  vi about.php 
+  985  ./package.sh /var/www/html/nameSite_DEV/
+  986  vi about.php 
+  987  ./package.sh /var/www/html/nameSite_DEV/
+  988  vi about.php 
+  989  cd ..
+  990  vi about.php_NEW 
+  991  mv about.php about.php_OG
+  992  mv about.php_NEW  about.php
+  993  vi about.php
+  994  vim about.php
+  995  cp about.php ../nameSite_DEV/
+  996  cp about.php_OG about.php
+  997  cp ../nameSite_DEV/about.php ~/projects/nameSite/about.php
+  998  vim about.php
+  999  git add -up
+ 1000  git status
+ 1001  git add documents/life-lowPrecision.kml
+ 1002  git add documents/wiki-1985-no-sports-over-1.kml
+ 1003  git status
+ 1004  git commit -m "Adding about me map"
+ 1005  git satus
+ 1006  git status
+ 1007  git push origin master
+ 1008  ./package.sh /var/www/html/nameSite
+ 1009  ./package.sh /var/www/html/nameSite_DEV/
+ 1010  rm /var/www/html/nameSite/documents/life-1.kml 
+ 1011  rm /var/www/html/nameSite/documents/life-2.kml 
+ 1012  rm /var/www/html/nameSite/documents/life-3.kml 
+ 1013  rm /var/www/html/nameSite/documents/life.kml 
+ 1014  rm /var/www/html/nameSite/documents/life-4.kml 
+ 1015  rm /var/www/html/nameSite/documents/life-tmp.kml 
+ 1016  rm /var/www/html/nameSite/documents/wiki-t*
+ 1017  vi about.php 
+ 1018  git add -up
+ 1019  git commit -m "typo"
+ 1020  git status
+ 1021  git push origin master
+ 1022  ./package.sh /var/www/html/nameSite
+ 1023  ./package.sh /var/www/html/nameSite_DEV/
+ 1024  vi about.php 
+ 1025  git add -up
+ 1026  git status
+ 1027  git add documents/wikidata-scaled-events.kml 
+ 1028  git status
+ 1029  git commit -m "added source kml links"
+ 1030  git status
+ 1031  git push origin master
+ 1032  ./package.sh /var/www/html/nameSite
+ 1033  ./package.sh /var/www/html/nameSite_DEV/
+ 1034  vim about.php 
+ 1035  ./package.sh /var/www/html/nameSite_DEV/
+ 1036  vim about.php 
+ 1037  ./package.sh /var/www/html/nameSite_DEV/
+ 1038  ./package.sh /var/www/html/nameSite\/
+ 1039  gitk &
+ 1040  git add -up
+ 1041  git checkout -up
+ 1042  git checkout -p
+ 1043  git add -up
+ 1044  git satus
+ 1045  git status
+ 1046  git stash
+ 1047  git status
+ 1048  ./package.sh /var/www/html/nameSite_DEV/
+ 1049  git add -up
+ 1050  git status
+ 1051  git commit -m "Fix odd bootstrap google map integration issue (no content after map in same row, otherwise no mobile map interaction)"
+ 1052  git status
+ 1053  git push origin master
+ 1054  ./package.sh /var/www/html/nameSite_DEV/
+ 1055  ./package.sh /var/www/html/nameSite/
+ 1056  cd documents/
+ 1057  ls
+ 1058  vi 
+ 1059  vim wiki-1985-no-sports-over-1.kml
+ 1060  for each in {1985..2021}: do echo $each; done
+ 1061  for each in {1985..2021}; do echo $each; done
+ 1062  #for each in {1985..2021}; do echo $each; head -1 wiki-1985-no-sports-over-1.kml > wiki-${each}.kml; grep "^<Placeholder.*<when>${each}-" >> wiki-${each}.kml; tail -2 wiki-1985-no-sports-over-1.kml >> wiki-${each}.kml; done
+ 1063  tail -2 wiki-1985-no-sports-over-1.kml
+ 1064  vi wiki-1985-no-sports-over-1.kml
+ 1065  for each in {1985..2021}; do echo $each; head -1 wiki-1985-no-sports-over-1.kml > wiki-${each}.kml; grep "^<Placeholder.*<when>${each}-" >> wiki-${each}.kml; tail -1 wiki-1985-no-sports-over-1.kml >> wiki-${each}.kml; done
+ 1066  for each in {1985..2021}; do echo $each; head -1 wiki-1985-no-sports-over-1.kml > wiki-${each}.kml; grep "^<Placeholder.*<when>${each}-" wiki-1985-no-sports-over-1.kml >> wiki-${each}.kml; tail -1 wiki-1985-no-sports-over-1.kml >> wiki-${each}.kml; done
+ 1067  ls
+ 1068  mkdir wikidata
+ 1069  mv wiki-1* wikidata
+ 1070  mv wiki-2* wikidata
+ 1071  ls
+ 1072  vi life-lowPrecision.kml 
+ 1073  cp life-lowPrecision.kml life-lowPrecision-lines.kml 
+ 1074  tr '\n' ' ' < life-lowPrecision.kml > life-lowPrecision-lines.kml 
+ 1075  sed -i 's/\s\+/ /g' life-lowPrecision-lines.kml 
+ 1076  vi life-lowPrecision-lines.kml 
+ 1077  vim life-lowPrecision-lines.kml 
+ 1078  ls
+ 1079  grep Folder wikidata
+ 1080  grep Folder wikidata/* -r
+ 1081  ls
+ 1082  mv wikidata/wiki-1985-no-sports-over-1.kml .
+ 1083  ls
+ 1084  vi wiki-1985-no-sports-over-1.kml 
+ 1085  rm wikidata/*
+ 1086  rm wikidata/* -f
+ 1087  for each in {1985..2021}; do echo $each; head -1 wiki-1985-no-sports-over-1.kml > wikidata/wiki-${each}.kml; grep "^<Placeholder.*<when>${each}-" wiki-1985-no-sports-over-1.kml >> wikidata/wiki-${each}.kml; tail -1 wiki-1985-no-sports-over-1.kml >> wikidata/wiki-${each}.kml; done
+ 1088  ls
+ 1089  grep Folder wikidata -r 
+ 1090  vim life-lowPrecision-lines.kml 
+ 1091  mkdir lifedata
+ 1092  for each in {1985..2021}; do echo $each; head -1 life-lowPrecision-lines.kml > lifedata/life-${each}.kml; grep "^<Placeholder.*<when>${each}-" life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; tail -1 life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; done
+ 1093  ls
+ 1094  cd lifedata/
+ 1095  ls
+ 1096  wc -l *
+ 1097  ls
+ 1098  cd ..
+ 1099  cd wikidata/
+ 1100  wc -l *
+ 1101  vi wiki-2021.kml 
+ 1102  cd ..
+ 1103  ls
+ 1104  #for each in {1985..2021}; do echo $each; head -1 life-lowPrecision-lines.kml > lifedata/life-${each}.kml; grep "^<Placeholder.*<when>${each}-" life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; tail -1 life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; done
+ 1105  grep "^<Placeholder.*<when>${each}-" wiki-1985-no-sports-over-1.kml
+ 1106  grep "^<Placeholder.*<when>1985-" wiki-1985-no-sports-over-1.kml
+ 1107  grep "^<Placeholder.*1985-" wiki-1985-no-sports-over-1.kml
+ 1108  grep "^<Placeholder.*1985" wiki-1985-no-sports-over-1.kml
+ 1109  grep "<Placeholder.*1985" wiki-1985-no-sports-over-1.kml
+ 1110  grep "Placeholder.*1985" wiki-1985-no-sports-over-1.kml
+ 1111  grep "1985" wiki-1985-no-sports-over-1.kml
+ 1112  grep "^<Placemark.*<when>${each}-" wiki-1985-no-sports-over-1.kml
+ 1113  for each in {1985..2021}; do echo $each; head -1 wiki-1985-no-sports-over-1.kml > wikidata/wiki-${each}.kml; grep "^<Placemark.*<when>${each}-" wiki-1985-no-sports-over-1.kml >> wikidata/wiki-${each}.kml; tail -1 wiki-1985-no-sports-over-1.kml >> wikidata/wiki-${each}.kml; done
+ 1114  cd wikidata/i
+ 1115  cd wikidata/
+ 1116  wc -l *
+ 1117  cd ..
+ 1118  ls
+ 1119  vi life-lowPrecision-lines.kml 
+ 1120  grep -o "<name>........." life-lowPrecision-lines.kml
+ 1121  grep -o "<name>[^:]*" life-lowPrecision-lines.kml 
+ 1122  grep -o "<name>[^:]*:" life-lowPrecision-lines.kml 
+ 1123  grep -o "<name>[^:>]*:" life-lowPrecision-lines.kml 
+ 1124  grep -o "<name>[^:]*:" life-lowPrecision-lines.kml 
+ 1125  grep -o "<name>[^:]*:" life-lowPrecision-lines.kml  | grep -v "&gt"
+ 1126  grep -o "<name>[^:]*:" life-lowPrecision-lines.kml  | egrep -v "(LookAt|&gt)"
+ 1127  vi life-lowPrecision-lines.kml 
+ 1128  grep -o "<name>[^:]*:" life-lowPrecision-lines.kml  | egrep -v "(&gt)"
+ 1129  grep -o "<name>[^<]*" life-lowPrecision-lines.kml  | egrep -v "(&gt)"
+ 1130  grep -o "<name>[^<]*" life-lowPrecision-lines.kml  | egrep -v "[0-9]:"
+ 1131  grep -o "<name>[^<]*" life-lowPrecision-lines.kml  | egrep -v "([0-9]:|&gt;)"
+ 1132  grep -o "<name>[^<]*" life-lowPrecision-lines.kml  | egrep -v "([0-9]:|&gt;| [1-5])"
+ 1133  vi life-lowPrecision-lines.kml 
+ 1134  grep -o "<name>[^<]*" life-lowPrecision-lines.kml  | egrep -v "([0-9]:|&gt;| [1-5])"
+ 1135  vi life-lowPrecision-lines.kml 
+ 1136  grep -o "<name>[^<]*" life-lowPrecision-lines.kml  | egrep -v "([0-9]:|&gt;| [1-5])"
+ 1137  vi life-lowPrecision-lines.kml 
+ 1138  grep -o "<name>[^<]*" life-lowPrecision-lines.kml  | egrep -v "([0-9]:|&gt;| [1-5])"
+ 1139  grep -o "<name>[^<]*" life-lowPrecision-lines.kml  | egrep -v "([0-9]:)"
+ 1140  git add -up
+ 1141  y
+ 1142  git status
+ 1143  git add wikidata/
+ 1144  git status
+ 1145  ls
+ 1146  git add life-lowPrecision-lines.kml
+ 1147  git status
+ 1148  #for each in {1985..2021}; do echo $each; head -1 life-lowPrecision-lines.kml > lifedata/life-${each}.kml; grep "^<Placeholder.*<when>${each}-" life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; tail -1 life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; done
+ 1149  grep "^<Placeholder.*<when>${each}-" life-lowPrecision-lines.kml
+ 1150  grep "^<Placemark.*<when>${each}-" life-lowPrecision-lines.kml
+ 1151  grep "^<Placemark.*<start>${each}-" life-lowPrecision-lines.kml
+ 1152  grep "^<Placemark.*<start>1985-" life-lowPrecision-lines.kml
+ 1153  grep "^<Placemark.*<begin>1985-" life-lowPrecision-lines.kml
+ 1154  vi life-lowPrecision-lines.kml 
+ 1155  grep "^<Placemark.*<begin>1985-" life-lowPrecision-lines.kml
+ 1156  sed 's#\(<Placemark> <name>\)\([^0-9].*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)#\1\3-\4: \2#" life-lowPrecision-lines.kml
+ 1157  sed 's#\(<Placemark> <name>\)\([^0-9].*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)#\1\3-\4: \2#' life-lowPrecision-lines.kml
+ 1158  sed 's#\(<Placemark> <name>\)\([^0-9].*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)#\1\3-\5: \2\4#' life-lowPrecision-lines.kml
+ 1159  sed 's#\(<Placemark> <name>\)\([^0-9].*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)#\1\3-\5: \2\4#' life-lowPrecision-lines-dates.kml
+ 1160  sed 's#\(<Placemark> <name>\)\([^0-9].*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)#\1\3-\5: \2\4#' life-lowPrecision-lines.kml > life-lowPrecision-lines-dates.kml 
+ 1161  grep -o "<name>[^<]*" life-lowPrecision-lines.kml  | egrep -v "([0-9]:)"
+ 1162  grep -o "<name>[^<]*" life-lowPrecision-lines-dates.kml  | egrep -v "([0-9]:)"
+ 1163  #for each in {1985..2021}; do echo $each; head -1 life-lowPrecision-lines.kml > lifedata/life-${each}.kml; grep "^<Placeholder.*<when>${each}-" life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; tail -1 life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; done
+ 1164  for each in {1985..2021}; do echo $each; head -1 life-lowPrecision-lines.kml > lifedata/life-${each}.kml; done #grep "^<Placeholder.*<when>${each}-" life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; tail -1 life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; done
+ 1165  ls
+ 1166  #IFS=$'\t'; while read line begin end; for each in {${begin}..${end}}; do echo $line >> lifedata/life-${each}.kml; done < sed '' life-lowPrecision-lines-dates.kml 
+ 1167  #sed 's#\(<Placemark> <name>\)\([^0-9].*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)#\1\3-\5: \2\4#' life-lowPrecision-lines.kml > life-lowPrecision-lines-dates.kml 
+ 1168  IFS=$'\t'; while read line begin end; for each in {${begin}..${end}}; do echo $line >> lifedata/life-${each}.kml; done < <(sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#' life-lowPrecision-lines-dates.kml )
+ 1169  IFS=$'\t'; while read line begin end; for each in {${begin}..${end}}; do echo $line >> lifedata/life-${each}.kml; done; done < <(sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#' life-lowPrecision-lines-dates.kml )
+ 1170  IFS=$'\t'; while read line begin end; do for each in {${begin}..${end}}; do echo $line >> lifedata/life-${each}.kml; done; done < <(sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#' life-lowPrecision-lines-dates.kml )
+ 1171  wc -l lifedata/
+ 1172  wc -l lifedata/*
+ 1173  rm lifedata/life-\{..\}.kml 
+ 1174  #IFS=$'\t'; while read line begin end; do for each in {${begin}..${end}}; do echo $line >> lifedata/life-${each}.kml; done; done < <(sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#' life-lowPrecision-lines-dates.kml )
+ 1175  for each in {${begin}..${end}}; do echo $line; done
+ 1176  echo $begin; echo $end; for each in {${begin}..${end}}; do echo $line; done
+ 1177  begin= 1991; end=1996; echo $begin; echo $end; for each in {${begin}..${end}}; do echo $line; done
+ 1178  begin=1991; end=1996; echo $begin; echo $end; for each in {${begin}..${end}}; do echo $line; done
+ 1179  begin=1991; end=1996; echo $begin; echo $end; for each in $(seq ${begin} ${end}); do echo $line; done
+ 1180  begin=1991; end=1996; echo $begin; echo $end; for ((i=begin; i<=end; i++)); do echo $line; done
+ 1181  begin=1991; end=1996; echo $begin; echo $end; for each in $(seq ${begin} ${end}); do echo $each; done
+ 1182  begin=1991; end=1996; echo $begin; echo $end; for each in {${begin}..${end}}; do echo $each; done
+ 1183  begin=1991; end=1996; echo $begin; echo $end; for each in $(seq ${begin} ${end}); do echo $each; done
+ 1184  IFS=$'\t'; while read line begin end; do for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#' life-lowPrecision-lines-dates.kml )
+ 1185  begin=1991; end=1996; echo $begin; echo $end; for each in $(seq ${begin} ${end}); do echo $each; done
+ 1186  IFS=$'\t'; while read begin end line; do for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#' life-lowPrecision-lines-dates.kml )
+ 1187  export IFS=$'\t'; while read begin end line; do for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#' life-lowPrecision-lines-dates.kml )
+ 1188  export IFS='\t'; while read begin end line; do for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#' life-lowPrecision-lines-dates.kml )
+ 1189  export IFS=$'\t'; while read begin end line; do for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#' life-lowPrecision-lines-dates.kml )
+ 1190  export IFS=$'\t'; while read begin end line; do for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(grep '<Placemark>.*<begin>.*<end>' life-lowPrecision-lines-dates.kml | sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#')
+ 1191  export IFS=$'\t'; while read begin end line; do echo $begin; echo $end; echo $line; for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(grep '<Placemark>.*<begin>.*<end>' life-lowPrecision-lines-dates.kml | sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#')
+ 1192  while IFS=$'\t' read begin end line; do echo $begin; echo $end; echo $line; for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(grep '<Placemark>.*<begin>.*<end>' life-lowPrecision-lines-dates.kml | sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#')
+ 1193  while IFS=$'\t' read begin end line; do echo "BEGIN=$begin"; echo "END=$end; echo $line; for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(grep '<Placemark>.*<begin>.*<end>' life-lowPrecision-lines-dates.kml | sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#')
+ 1194  while IFS=$'\t' read begin end line; do echo "BEGIN=$begin"; echo "END=$end"; echo "LINE=$line"; for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(grep '<Placemark>.*<begin>.*<end>' life-lowPrecision-lines-dates.kml | sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#')
+ 1195  #while IFS=$'\t' read begin end line; do echo "BEGIN=$begin"; echo "END=$end"; echo "LINE=$line"; for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(grep '<Placemark>.*<begin>.*<end>' life-lowPrecision-lines-dates.kml | sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#')
+ 1196  head -5 life-lowPrecision-lines-dates.kml | grep '<Placemark>.*<begin>.*<end>' | sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#'
+ 1197  head -5 life-lowPrecision-lines-dates.kml | grep '<Placemark>.*<begin>.*<end>' | sed '#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5#'
+ 1198  head -5 life-lowPrecision-lines-dates.kml | grep '<Placemark>.*<begin>.*<end>' | sed '#\(<Placemark> .*<begin>\([0-9]*\).*<end>\([0-9]*\).*\)#\2\t\3\t\1#'
+ 1199  head -5 life-lowPrecision-lines-dates.kml | grep '<Placemark>.*<begin>.*<end>' | sed '#\(<Placemark> .*<begin>\([0-9]*\).*<end>\([0-9]*\).*\)#\2\t\3#'
+ 1200  head -5 life-lowPrecision-lines-dates.kml | grep '<Placemark>.*<begin>.*<end>' | sed 's#\(<Placemark> .*<begin>\([0-9]*\).*<end>\([0-9]*\).*\)#\2\t\3#'
+ 1201  head -5 life-lowPrecision-lines-dates.kml | grep '<Placemark>.*<begin>.*<end>' | sed 's#\(<Placemark> .*<begin>\([0-9]*\).*<end>\([0-9]*\).*\)#\2\t\3\t\1#'
+ 1202  while IFS=$'\t' read begin end line; do echo "BEGIN=$begin"; echo "END=$end"; echo "LINE=$line"; for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(grep '<Placemark>.*<begin>.*<end>' life-lowPrecision-lines-dates.kml | sed 's#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#')
+ 1203  wc -l lifedata/*
+ 1204  rm lifedata/* -f
+ 1205  for each in {1985..2021}; do echo $each; head -1 life-lowPrecision-lines.kml > lifedata/life-${each}.kml; done #grep "^<Placeholder.*<when>${each}-" life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; tail -1 life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; done
+ 1206  while IFS=$'\t' read begin end line; do echo "BEGIN=$begin"; echo "END=$end"; echo "LINE=$line"; for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(grep '<Placemark>.*<begin>.*<end>' life-lowPrecision-lines-dates.kml | sed 's#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#')
+ 1207  wc -l lifedata/*
+ 1208  ls lifedata/
+ 1209  rm lifedata/* -f
+ 1210  for each in {1985..2021}; do echo $each; head -1 life-lowPrecision-lines.kml > lifedata/life-${each}.kml; done #grep "^<Placeholder.*<when>${each}-" life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; tail -1 life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; done
+ 1211  rm lifedata/* -f
+ 1212  for each in {1985..2021}; do echo $each; head -1 life-lowPrecision-lines.kml > lifedata/life-${each}.kml; done #grep "^<Placeholder.*<when>${each}-" life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; tail -1 life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; done
+ 1213  wc -l lifedata/*
+ 1214  while IFS=$'\t' read begin end line; do echo "BEGIN=$begin"; echo "END=$end"; echo "LINE=$line"; for each in $(seq ${begin} ${end}); do echo $line >> lifedata/life-${each}.kml; done; done < <(grep '<Placemark>.*<begin>.*<end>' life-lowPrecision-lines-dates.kml | sed 's#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#')
+ 1215  wc -l lifedata/*
+ 1216  rm lifedata/* -f
+ 1217  for each in {1985..2021}; do echo $each; head -1 life-lowPrecision-lines.kml > lifedata/life-${each}.kml; done #grep "^<Placeholder.*<when>${each}-" life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; tail -1 life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; done
+ 1218  while IFS=$'\t' read begin end line; do echo "BEGIN=$begin"; echo "END=$end"; echo "LINE=$line"; for ((each=start; each<=end; each++)); do echo $line >> lifedata/life-${each}.kml; done; done < <(grep '<Placemark>.*<begin>.*<end>' life-lowPrecision-lines-dates.kml | sed 's#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#')
+ 1219  for each in {1985..2021}; do echo $each; tail -1 life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; done
+ 1220  ls
+ 1221  cd lifedata/
+ 1222  ls
+ 1223  cd ..
+ 1224  rm lifedata/* -f
+ 1225  for each in {1985..2021}; do echo $each; head -1 life-lowPrecision-lines.kml > lifedata/life-${each}.kml; done #grep "^<Placeholder.*<when>${each}-" life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; tail -1 life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; donec
+ 1226  while IFS=$'\t' read begin end line; do echo "BEGIN=$begin"; echo "END=$end"; echo "LINE=$line"; for ((each=begin; each<=end; each++)); do echo $line >> lifedata/life-${each}.kml; done; done < <(grep '<Placemark>.*<begin>.*<end>' life-lowPrecision-lines-dates.kml | sed 's#\(\(<Placemark> .*<begin>\)\([0-9]*\)\(.*<end>\)\([0-9]*\)\(.*\)\)#\3\t\5\t\1#')
+ 1227  for each in {1985..2021}; do echo $each; tail -1 life-lowPrecision-lines.kml >> lifedata/life-${each}.kml; done
+ 1228  cd lifedata/
+ 1229  ls -alrt
+ 1230  wc -l *
+ 1231  git add -up .
+ 1232  cd ..
+ 1233  git add lifedata/
+ 1234  ls
+ 1235  history > scripts
