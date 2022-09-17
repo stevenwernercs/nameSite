@@ -180,9 +180,19 @@ require_once("header.inc");
 	</div>
 	<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG86U3_subBCpgXS4UOHWCi9nHzZ5Xhcc&callback=initMap">
 	</script>
+      </div>
+      <div class="row">
+	<div class="col-lg-2">
+	</div>
+	<div class="col-lg-8">
+		<br/>
+		<iframe width="100%" height="560" src="https://www.youtube.com/embed/4-Q-eG9_EDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<br/>
 	</div>
       </div>
 	
+
+
       <!-- /.row -->
       <!-- /END THE FEATURETTES -->
 
