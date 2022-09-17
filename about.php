@@ -107,7 +107,7 @@ require_once("header.inc");
 	<div class="col-lg-4">
 	  <a href="https://www.rtx.com" title="Raytheon Technologies: Intellegence Information Services" target="_blank"><img class="img-circle" src="img/square/rtx.png" style="width: 140px; height: 140px;"></a>
           <h3>Data Science</h3>
-	  <p>Sr Software Engineer at a leading Intellegence Contractor. Specializations in NLP, ML & Data Science</p>
+	  <p>Principal Software Engineer at a leading Intellegence & Defense Contractor Company. Specializations in Data ETL, NLP, ML & Data Science</p>
           <!-- <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p> -->
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
