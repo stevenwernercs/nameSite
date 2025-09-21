@@ -1,0 +1,14 @@
+.#*
+.DS_Store
+.git
+.gitignore
+.env
+error_log
+cloudflared/credentials.json
+cloudflared/*.json
+node_modules
+tmp
+*.log
+**/.idea
+**/.vscode
+package-exclude.ctl

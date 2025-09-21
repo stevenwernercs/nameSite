@@ -1,2 +1,6 @@
 /netbeans/nbproject/private/
 **.swp
+.env
+error_log
+cloudflared/credentials.json
+cloudflared/*.json
