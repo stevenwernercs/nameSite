@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  web:
+    image: ${AR_REGION}-docker.pkg.dev/${GCP_PROJECT_ID}/${AR_REPO}/namesite:${TAG_CHANNEL}
+    container_name: namesite-web
+    restart: unless-stopped
+    networks:
+      - edge
+
+networks:
+  edge:
+    external: true
+

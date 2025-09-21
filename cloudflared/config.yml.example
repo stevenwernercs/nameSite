@@ -1,0 +1,31 @@
+# Example config for a Named Tunnel serving multiple hostnames
+# Requires a created tunnel (e.g., name: home-origin) and a credentials JSON file.
+
+# Either the tunnel name (if a matching credentials file exists) or UUID.
+tunnel: home-origin
+
+# In-container path to the credentials file (mount it via docker-compose)
+credentials-file: /etc/cloudflared/credentials.json
+
+ingress:
+  # All three domains point to the same PHP site (this repo)
+  - hostname: stevenwerner.me
+    service: http://web:80
+  - hostname: stevenwerner.name
+    service: http://web:80
+  - hostname: stevenwernercs.com
+    service: http://web:80
+
+  # Additional sites (start these services on the same Docker network)
+  - hostname: cognifiq.dev
+    service: http://cognifiq:80   # placeholder service name
+  - hostname: infinitecraftgraph.com
+    service: http://infinitecraftgraph:3000
+
+  # Optional: serve static files directly from cloudflared (mount folder into container)
+  # - hostname: static.example.com
+  #   service: file:///sites/static
+
+  # Catch-all must be last
+  - service: http_status:404
+

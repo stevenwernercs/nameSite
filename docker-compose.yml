@@ -1,0 +1,46 @@
+version: "3.9"
+
+services:
+  web:
+    image: php:8.2-apache
+    container_name: namesite-web
+    restart: unless-stopped
+    volumes:
+      - ./:/var/www/html:ro
+    ports:
+      - "8080:80" # local access at http://localhost:8080
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    networks:
+      - default
+      - edge
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflared
+    restart: unless-stopped
+    depends_on:
+      - web
+    # Default: run using tunnel token from env (managed via Cloudflare dashboard)
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARED_TOKEN}
+    environment:
+      - TUNNEL_METRICS=0.0.0.0:2000
+    # Allow referring to host services as http://host.docker.internal:PORT
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    # Mount optional config/credentials when using a Named Tunnel (config.yml)
+    volumes:
+      - ./cloudflared:/etc/cloudflared:ro
+    networks:
+      - edge
+    # Enable this service only for local/dev profile. In prod, run cloudflared from the infra repo.
+    profiles: ["local"]
+
+networks:
+  default:
+    name: namesite
+  edge:
+    external: true

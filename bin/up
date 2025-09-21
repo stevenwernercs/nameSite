@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Starts the stack using a Cloudflare Tunnel token stored in Google Secret Manager
+
+SECRET_NAME="CLOUDFLARED_HOME_ORIGIN_TUNNEL_TOKEN"
+
+if ! command -v gcloud >/dev/null 2>&1; then
+  echo "gcloud is not installed or not in PATH" >&2
+  exit 1
+fi
+
+if ! command -v docker >/dev/null 2>&1; then
+  echo "docker is not installed or not in PATH" >&2
+  exit 1
+fi
+
+choose_dc() {
+  if docker compose version >/dev/null 2>&1; then
+    echo "docker compose"; return
+  fi
+  if command -v docker.exe >/dev/null 2>&1 && docker.exe compose version >/dev/null 2>&1; then
+    echo "docker.exe compose"; return
+  fi
+  if command -v docker-compose >/dev/null 2>&1 && docker-compose version >/dev/null 2>&1; then
+    echo "docker-compose"; return
+  fi
+  echo ""
+}
+DC=$(choose_dc)
+if [[ -z "$DC" ]]; then
+  echo "Docker Compose not available. Enable Docker Desktop WSL2 integration or install the compose plugin (sudo apt-get install docker-compose-plugin)." >&2
+  exit 1
+fi
+
+echo "Fetching Cloudflare Tunnel token from Secret Manager: ${SECRET_NAME}"
+export CLOUDFLARED_TOKEN="$(gcloud secrets versions access latest --secret="${SECRET_NAME}")"
+
+if [[ -z "${CLOUDFLARED_TOKEN}" ]]; then
+  echo "Secret ${SECRET_NAME} is empty or inaccessible" >&2
+  exit 1
+fi
+
+echo "Ensuring shared external network 'edge' exists..."
+docker network create edge >/dev/null 2>&1 || true
+
+echo "Starting containers (includes local cloudflared via profile 'local')..."
+$DC --profile local up -d
+
+echo "Done. View logs with: docker logs -f cloudflared"
