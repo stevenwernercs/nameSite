@@ -18,13 +18,16 @@ if [[ "$branch_or_tag" == "HEAD" ]]; then
 fi
 branch_or_tag=${branch_or_tag//\//-}
 short_sha=$(git rev-parse --short HEAD)
+build_ref="${branch_or_tag}.${short_sha}"
 
 tag_latest="${branch_or_tag}.latest"
 tag_sha="${branch_or_tag}.${short_sha}"
 
-echo "Building ${IMAGE_BASE}:{${tag_latest},${tag_sha}}"
+echo "Building ${IMAGE_BASE}:{${tag_latest},${tag_sha}} (BUILD_REF=${build_ref})"
 
-docker build -t "${IMAGE_BASE}:${tag_latest}" -t "${IMAGE_BASE}:${tag_sha}" .
+docker build \
+  --build-arg BUILD_REF="$build_ref" \
+  -t "${IMAGE_BASE}:${tag_latest}" -t "${IMAGE_BASE}:${tag_sha}" .
 
 echo "Pushing ${IMAGE_BASE}:${tag_latest}"
 docker push "${IMAGE_BASE}:${tag_latest}"
@@ -32,4 +35,3 @@ echo "Pushing ${IMAGE_BASE}:${tag_sha}"
 docker push "${IMAGE_BASE}:${tag_sha}"
 
 echo "Done: ${IMAGE_BASE}:${tag_latest} and ${IMAGE_BASE}:${tag_sha}"
-
